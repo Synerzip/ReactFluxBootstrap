@@ -1,0 +1,12 @@
+npm
+  browserify
+  watchify
+  testling
+  coverify
+  faucet
+  tap-xunit
+  eslint
+  jscs
+  eslint-plugin-react
+brew
+  phantomjs

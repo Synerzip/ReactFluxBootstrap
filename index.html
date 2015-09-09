@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta name="api-key" content="{{ mechanized_client_token }}">-->
+  <meta name="api-key" content="test123key">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta charset="UTF-8">
+	<title>Admin Console</title>
+  <!-- Optional theme -->
+  {% load assets %}
+
+  {% assets "css/configinator_admin_console/bootstrap.min.css" %}
+    <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}" />
+  {% endassets %}
+  
+  {% assets "css/configinator_admin_console/style.css" %}
+    <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}" />
+  {% endassets %}
+  
+  {% assets "js/configinator_admin_console/all.js" %}
+  <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+  {% endassets %}
+  <link rel="shortcut icon" href="/configinator_admin_console/images/mycompany-favicon.png"  />
+
+
+</head>
+<body>
+</body>
+</html>
